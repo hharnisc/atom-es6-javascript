@@ -11,3 +11,6 @@
   "console.warn":
     prefix: "cw"
     body: "console.warn(${0});"
+  "console.table":
+    prefix: "ct"
+    body: "console.table(${0});"

@@ -11,3 +11,21 @@
   "expect not deep equal":
     prefix: "exnde"
     body: "expect(${1:actual}).to.not.eql(${2:expected});"
+  "expect contains":
+    prefix: "exc"
+    body: "expect(${1:actual}).to.contain(${2:expected});"
+  "expect not contains":
+    prefix: "exnc"
+    body: "expect(${1:actual}).to.not.contain(${2:expected});"
+  "should equal":
+    prefix: "se"
+    body: "(${1:actual}).should.equal(${2:expected});"
+  "should not equal":
+    prefix: "sne"
+    body: "(${1:actual}).should.not.equal(${2:expected});"
+  "should contain":
+    prefix: "sc"
+    body: "(${1:actual}).should.contain(${2:expected});"
+  "should not contain":
+    prefix: "snc"
+    body: "(${1:actual}).should.not.contain(${2:expected});"
