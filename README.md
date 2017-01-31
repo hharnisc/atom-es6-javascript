@@ -492,6 +492,59 @@ afterEach(() => {
   ${0}
 });
 ```
+### Chai (expect)
+
+#### `exe⇥` expect equal
+```js
+expect(${1:actual}).to.equal(${2:expected});
+```
+
+#### `exde⇥` expect deep equal
+```js
+expect(${1:actual}).to.eql(${2:expected});
+```
+
+#### `exne⇥` expect not equal
+```js
+expect(${1:actual}).to.not.equal(${2:expected});
+```
+
+#### `exnde⇥` expect not deep equal
+```js
+expect(${1:actual}).to.not.eql(${2:expected});
+```
+
+#### `exc⇥` expect contains
+```js
+expect(${1:actual}).to.contain(${2:expected});
+```
+
+#### `exnc⇥` expect not contains
+```js
+expect(${1:actual}).to.not.contain(${2:expected});
+```
+
+### Chai (should)
+
+#### `se⇥` should equal
+```js
+(${1:actual}).should.equal(${2:expected});
+```
+
+#### `sne⇥` should not equal
+```js
+(${1:actual}).should.not.equal(${2:expected});
+```
+
+#### `sc⇥` should contain
+```js
+(${1:actual}).should.contain(${2:expected});
+```
+
+#### `snc⇥` should not contain
+```js
+(${1:actual}).should.not.contain(${2:expected});
+```
 
 ### Console
 
@@ -513,6 +566,11 @@ console.error(${0});
 #### `cw⇥` console.warn
 ```js
 console.warn(${0});
+```
+
+#### `ct⇥` console.table
+```js
+console.table(${0});
 ```
 
 ### Timers
